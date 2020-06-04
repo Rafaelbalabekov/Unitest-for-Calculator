@@ -42,10 +42,10 @@ namespace Menu.Tests
 
         [TestCase('(', 1)]
         [TestCase(')', 2)]
-        [TestCase('+', 3)]
-        [TestCase('-', 3)]
-        [TestCase('*', 4)]
-        [TestCase('/', 4)]
+        [TestCase('+', 4)]
+        [TestCase('-', 4)]
+        [TestCase('*', 5)]
+        [TestCase('/', 5)]
         public void TestPrior(char znak, int exp)
         {
             Menu Menu = new Menu();
